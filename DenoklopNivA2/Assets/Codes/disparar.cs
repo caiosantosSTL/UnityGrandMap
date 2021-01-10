@@ -24,7 +24,7 @@ public class disparar : MonoBehaviour
 
     private void OnDestroy()
     {
-        Destroy(bala, 2f);
+        //Destroy(bala, 2f);
 
     }
 }

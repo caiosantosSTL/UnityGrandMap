@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class movebala : MonoBehaviour
 {
-    private float sped = 12f;
+    private float sped = 14f;
     public ParticleSystem boom;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,14 +22,21 @@ public class movebala : MonoBehaviour
         if (sped != 0)
         {
             transform.position += transform.forward * (sped * Time.deltaTime);
-            
-        }
-        else
-        {
-            print("fara veloco");
+
+            if (ToqueBoom.ativa == true)
+            {
+
+                Destroy(gameObject);
+                ToqueBoom.ativa = false;
+
+            }
+            else if(ToqueBoom.ativa == false)
+            {
+                Destroy(gameObject, 1f);
+            }
+
         }
 
-        Destroy(gameObject, 1f);
 
     }
 

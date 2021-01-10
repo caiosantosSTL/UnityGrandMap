@@ -273,6 +273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Torretax
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5ba23483c5ff9a2478ef90bd9275d3e0, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ba23483c5ff9a2478ef90bd9275d3e0, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -287,15 +291,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ba23483c5ff9a2478ef90bd9275d3e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.6
+      value: 7.57
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ba23483c5ff9a2478ef90bd9275d3e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.2
+      value: 6.16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ba23483c5ff9a2478ef90bd9275d3e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.2
+      value: 13.29
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ba23483c5ff9a2478ef90bd9275d3e0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -379,7 +383,7 @@ GameObject:
   - component: {fileID: 90834952}
   m_Layer: 0
   m_Name: nariz
-  m_TagString: Untagged
+  m_TagString: outro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1172,6 +1176,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e5cf3ccf251464c4fabd143ef4482eff, type: 3}
       propertyPath: m_Name
       value: columDenoklop (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e5cf3ccf251464c4fabd143ef4482eff, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e5cf3ccf251464c4fabd143ef4482eff, type: 3}
       propertyPath: m_RootOrder
@@ -2014,7 +2022,7 @@ GameObject:
   - component: {fileID: 673941060}
   m_Layer: 0
   m_Name: disp
-  m_TagString: Untagged
+  m_TagString: outro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2880,7 +2888,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 5.894, y: 86.673, z: -0.162}
 --- !u!114 &963194229
 MonoBehaviour:
@@ -3044,7 +3052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e24338dbf382ad40bf37e288ae5d493, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e24338dbf382ad40bf37e288ae5d493, type: 3}
       propertyPath: m_LocalScale.x
@@ -3701,6 +3709,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a2aa6732c1c89cb4997f69ab93ecb56b, type: 3}
+--- !u!1 &1279943998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: a3bb8c9a2ce5b684589595d13862d6dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2014886193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1279943999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279943998}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1abb83eab9b37b47bebe4acb4b9730d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1287560822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3923,7 +3949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e24338dbf382ad40bf37e288ae5d493, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e24338dbf382ad40bf37e288ae5d493, type: 3}
       propertyPath: m_LocalScale.x
@@ -4105,6 +4131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: columDenoklop (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e5cf3ccf251464c4fabd143ef4482eff, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e5cf3ccf251464c4fabd143ef4482eff, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4210,6 +4240,7 @@ GameObject:
   - component: {fileID: 1447809847}
   - component: {fileID: 1447809848}
   - component: {fileID: 1447809849}
+  - component: {fileID: 1447809850}
   m_Layer: 0
   m_Name: Cods
   m_TagString: Untagged
@@ -4283,6 +4314,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pontos: {fileID: 707181667}
+--- !u!114 &1447809850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447809844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59ceddb4cd17d64f9d01dfa0b07b3d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1489590806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5328,7 +5371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d1a5291208cb2f459519788545991da, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d1a5291208cb2f459519788545991da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5532,7 +5575,7 @@ Transform:
   - {fileID: 673941059}
   - {fileID: 684909786}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1680711337
 PrefabInstance:
@@ -5632,7 +5675,7 @@ GameObject:
   - component: {fileID: 1686870398}
   m_Layer: 0
   m_Name: target
-  m_TagString: Untagged
+  m_TagString: outro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6121,7 +6164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1853179003
 MonoBehaviour:
