@@ -5,6 +5,7 @@ using UnityEngine;
 public class movebala : MonoBehaviour
 {
     private float sped = 12f;
+    public ParticleSystem boom;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,17 @@ public class movebala : MonoBehaviour
             print("fara veloco");
         }
 
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1f);
+
     }
+
+
+    private void OnDestroy()
+    {
+        
+        Instantiate(boom, transform.position, Quaternion.identity);
+
+    }
+
+
 }

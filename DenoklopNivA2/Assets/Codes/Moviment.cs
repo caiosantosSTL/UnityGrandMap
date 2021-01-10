@@ -25,8 +25,10 @@ public class Moviment : MonoBehaviour {
 
         RaycastHit hit = new RaycastHit();
 
+
         if (Physics.Raycast(transform.position, transform.forward, out hit, 0.3f))
         {
+
             if (Input.GetKey(KeyCode.W))
             {
                 //tsf.Translate(new Vector3(move_vel, 0, 0) * Time.deltaTime);//frente
@@ -34,6 +36,9 @@ public class Moviment : MonoBehaviour {
             }
             //print("tocoux");
         }
+
+
+
 
         if (Physics.Raycast(transform.position, -transform.forward, out hit, 0.3f))
         {
@@ -44,6 +49,9 @@ public class Moviment : MonoBehaviour {
             }
             //print("tocoux");
         }
+
+
+
 
 
         //mover
